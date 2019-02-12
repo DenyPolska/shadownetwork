@@ -1,104 +1,50 @@
 {
-  "_from": "aws4@^1.2.1",
-  "_id": "aws4@1.6.0",
+  "_from": "aws-sign2@~0.6.0",
+  "_id": "aws-sign2@0.6.0",
   "_inBundle": false,
-  "_integrity": "sha1-g+9cqGCysy5KDe7e6MdxudtXRx4=",
-  "_location": "/aws4",
+  "_integrity": "sha1-FDQt0428yU0OW4fXY81jYSwOeU8=",
+  "_location": "/aws-sign2",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "aws4@^1.2.1",
-    "name": "aws4",
-    "escapedName": "aws4",
-    "rawSpec": "^1.2.1",
+    "raw": "aws-sign2@~0.6.0",
+    "name": "aws-sign2",
+    "escapedName": "aws-sign2",
+    "rawSpec": "~0.6.0",
     "saveSpec": null,
-    "fetchSpec": "^1.2.1"
+    "fetchSpec": "~0.6.0"
   },
   "_requiredBy": [
     "/request"
   ],
-  "_resolved": "https://registry.npmjs.org/aws4/-/aws4-1.6.0.tgz",
-  "_shasum": "83ef5ca860b2b32e4a0deedee8c771b9db57471e",
-  "_spec": "aws4@^1.2.1",
+  "_resolved": "https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.6.0.tgz",
+  "_shasum": "14342dd38dbcc94d0e5b87d763cd63612c0e794f",
+  "_spec": "aws-sign2@~0.6.0",
   "_where": "C:\\Users\\SumRndmDde\\Discord Bot Maker\\DBM NWjs 0.23.7\\bot\\node_modules\\request",
   "author": {
-    "name": "Michael Hart",
-    "email": "michael.hart.au@gmail.com",
-    "url": "http://github.com/mhart"
+    "name": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com"
   },
   "bugs": {
-    "url": "https://github.com/mhart/aws4/issues"
+    "url": "https://github.com/mikeal/aws-sign/issues"
   },
   "bundleDependencies": false,
+  "dependencies": {},
   "deprecated": false,
-  "description": "Signs and prepares requests using AWS Signature Version 4",
-  "devDependencies": {
-    "mocha": "^2.4.5",
-    "should": "^8.2.2"
+  "description": "AWS signing. Originally pulled from LearnBoost/knox, maintained as vendor in request, now a standalone module.",
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
   },
-  "homepage": "https://github.com/mhart/aws4#readme",
-  "keywords": [
-    "amazon",
-    "aws",
-    "signature",
-    "s3",
-    "ec2",
-    "autoscaling",
-    "cloudformation",
-    "elasticloadbalancing",
-    "elb",
-    "elasticbeanstalk",
-    "cloudsearch",
-    "dynamodb",
-    "kinesis",
-    "lambda",
-    "glacier",
-    "sqs",
-    "sns",
-    "iam",
-    "sts",
-    "ses",
-    "swf",
-    "storagegateway",
-    "datapipeline",
-    "directconnect",
-    "redshift",
-    "opsworks",
-    "rds",
-    "monitoring",
-    "cloudtrail",
-    "cloudfront",
-    "codedeploy",
-    "elasticache",
-    "elasticmapreduce",
-    "elastictranscoder",
-    "emr",
-    "cloudwatch",
-    "mobileanalytics",
-    "cognitoidentity",
-    "cognitosync",
-    "cognito",
-    "containerservice",
-    "ecs",
-    "appstream",
-    "keymanagementservice",
-    "kms",
-    "config",
-    "cloudhsm",
-    "route53",
-    "route53domains",
-    "logs"
-  ],
-  "license": "MIT",
-  "main": "aws4.js",
-  "name": "aws4",
+  "homepage": "https://github.com/mikeal/aws-sign#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "aws-sign2",
+  "optionalDependencies": {},
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mhart/aws4.git"
+    "url": "git+https://github.com/mikeal/aws-sign.git"
   },
-  "scripts": {
-    "test": "mocha ./test/fast.js ./test/slow.js -b -t 100s -R list"
-  },
-  "version": "1.6.0"
+  "version": "0.6.0"
 }
